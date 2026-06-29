@@ -11,6 +11,7 @@ class Solution:
             elif matrix[mid//columns][mid % columns] > target:
                 # left
                 r = mid - 1
+                
             else:
                 # right
                 l = mid + 1
